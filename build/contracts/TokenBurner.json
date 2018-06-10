@@ -1,0 +1,181 @@
+{
+  "contractName": "TokenBurner",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820fa05f0a6da8c11670665e9fcd2700438a0d7303f67defffbe12da9d5f29aad5d0029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820fa05f0a6da8c11670665e9fcd2700438a0d7303f67defffbe12da9d5f29aad5d0029",
+  "sourceMap": "26:103:1:-;;;87:39;8:9:-1;5:2;;;30:1;27;20:12;5:2;87:39:1;26:103;;;;;;",
+  "deployedSourceMap": "26:103:1:-;;;;;",
+  "source": "pragma solidity ^0.4.19;\n\ncontract TokenBurner {\n\n  /**\n    *@dev Constructor\n    */\n  function TokenBurner()\n  public\n  {\n  }\n\n}\n",
+  "sourcePath": "/Users/paco/Dev/amon/token-burning/contracts/TokenBurner.sol",
+  "ast": {
+    "absolutePath": "/Users/paco/Dev/amon/token-burning/contracts/TokenBurner.sol",
+    "exportedSymbols": {
+      "TokenBurner": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".19"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "TokenBurner",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "121:5:1",
+              "statements": []
+            },
+            "documentation": "dev Constructor",
+            "id": 62,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "TokenBurner",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "107:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "121:0:1"
+            },
+            "scope": 63,
+            "src": "87:39:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:103:1"
+      }
+    ],
+    "src": "0:130:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/paco/Dev/amon/token-burning/contracts/TokenBurner.sol",
+    "exportedSymbols": {
+      "TokenBurner": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".19"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "TokenBurner",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "121:5:1",
+              "statements": []
+            },
+            "documentation": "dev Constructor",
+            "id": 62,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "TokenBurner",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "107:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "121:0:1"
+            },
+            "scope": 63,
+            "src": "87:39:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:103:1"
+      }
+    ],
+    "src": "0:130:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {
+    "1528643193509": {
+      "events": {},
+      "links": {},
+      "address": "0x1043067ebbf8bd5f58b1d5ac0443737bb257363b",
+      "transactionHash": "0x6938762486f8a16ecf12b4197ee4b239d065c9a808233d50f68b1c768a389dfe"
+    }
+  },
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-06-10T15:07:48.277Z"
+}

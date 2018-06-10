@@ -1,0 +1,21 @@
+{
+  "name": "token-burner-contract",
+  "version": "0.1.0",
+  "description": "Token-burner smart contract",
+  "scripts": {
+    "dev": "truffle develop",
+    "flatten": "truffle-flattener contracts/TokenBurner.sol > build/TokenBurnerFlat.sol",
+    "deploy:kovan": "truffle migrate --network kovan",
+    "deploy:rinkeby": "truffle migrate --network rinkeby",
+    "deploy:mainnet": "truffle migrate --network mainnet"
+  },
+  "author": "amon (hello@amon.tech)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "ethereumjs-testrpc": "^6.0.3",
+    "truffle": "^4.0.6",
+    "truffle-flattener": "^1.2.3",
+    "truffle-hdwallet-provider": "0.0.3"
+  }
+}
